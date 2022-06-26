@@ -27,7 +27,8 @@ include("configuration.php");
       if($insert_run)
       {
 
-      echo "form has been submited successfully";
+        echo "<div class='alert alert-success'>Donor Added Successfully.</div>";
+        header('Refresh:3');
 
       }
       else
